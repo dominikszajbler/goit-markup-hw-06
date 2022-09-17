@@ -692,5 +692,108 @@ align-items: baseline;
 .is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
+.form-group {
+  display: flex;
+  flex-direction: column;
+  }
 
+.form-group p {
+  margin-top: 40px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+.personal-lbl {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  position: relative;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--alt-text-color);
+}
+
+.form-icon {
+  fill: var(--text-color);
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 30px;
+  left: 15px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea {
+  resize: none;
+  min-width: 448px;
+  min-height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 4px;
+  padding-top: 12px;
+  padding-left: 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(117, 117, 117, 0.5);
+  
+}
+
+.personal-input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 4px;
+  padding-left: 42px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.personal-input:hover,
+.personal-input:focus,
+.personal-input:active,
+.textarea:hover,
+.textarea:focus,
+.textarea:active {
+  border-color: var(--active-link-color);
+}
+.personal-lbl:hover .form-icon,
+.personal-lbl:focus > .form-icon,
+.personal-lbl:active > .form-icon {
+fill: var(--active-link-color);
+}
+
+.checkbox-lbl {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--alt-text-color);
+}
+.checkbox-input {
+  margin-left: 54px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  }
+.lbl-link {
+  color: var(--active-link-color);
+}
+.modal-submit-btn {
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--footer-text-color);
+  background-color: var(--active-link-color);
+  border-color: transparent;
+  margin:auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
 /* =============end-backdrop============= */
