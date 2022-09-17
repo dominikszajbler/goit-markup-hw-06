@@ -448,9 +448,16 @@
         </div>
         <div class="ft-form-container">
           <h3>ZAPISZ SIĘ DO NEWSLETTERA</h3>
-          <form name="newsletter_email" autocomplete="on">
-            <input class="ft-input" type="email" name="email" placeholder="E-mail" />
-            <button type="submit">Zapisz się SVG</button>
+          <form class="ft-form" name="newsletter_email" autocomplete="on">
+            <label>
+              <input class="ft-input" type="email" name="email" placeholder="E-mail" />
+            </label>
+            <button class="ft-submit-btn" type="submit">
+              Zapisz się<span>
+                <svg class="icon icon-send">
+                  <use href="./images/icons.svg#icon-send"></use></svg
+              ></span>
+            </button>
           </form>
         </div>
       </div>
