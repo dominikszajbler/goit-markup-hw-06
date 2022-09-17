@@ -606,8 +606,9 @@ align-items: baseline;
   /* position: relative; */
    letter-spacing: 0.06em;
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-around;
   align-items: center;
+  padding-left: 34px;
   
   }
 .icon-send {
@@ -639,7 +640,7 @@ align-items: baseline;
   transition: opacity 500ms, visibility 500ms;
 }
 .modal {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   /* transform: translate(-50%, -50%); */
