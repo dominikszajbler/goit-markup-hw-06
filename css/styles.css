@@ -538,6 +538,7 @@ svg {
   margin-left: 70px;
   width: 206px;
   height: 136px;
+
 }
 .ft-social-link {
   display: flex;
@@ -546,6 +547,7 @@ svg {
   /* background-color: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%); */
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+ 
   /* fill: var(--footer-text-color) */
 }
 /* .social .icon {
@@ -558,9 +560,10 @@ svg {
 }
 .ft-form-container {
   margin-top: 12px;
-  margin-left: 70px;
+  margin-left: 78px;
   max-width: 600px;
   height: 136px;
+  /* border: 1px solid red; */
 }
 /* =============backdrop============= */
 .backdrop {
