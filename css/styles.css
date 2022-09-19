@@ -586,6 +586,7 @@ svg {
   font-size: 16px;
   line-height: 20px;
   color: var(--footer-text-color);
+  
 }
 .ft-input::placeholder {
   color: var(--ft-contact-color);
@@ -609,6 +610,7 @@ svg {
   justify-content: space-around;
   align-items: center;
   padding-left: 34px;
+  cursor: pointer;
 }
 .icon-send {
   margin-top: 11px;
@@ -774,6 +776,7 @@ svg {
   margin-top: 10px;
   margin-bottom: 30px;
   position: relative;
+  cursor: pointer;
 }
 .checkbox-input {
   -moz-appearance: none;
@@ -796,7 +799,8 @@ svg {
     background-position: 50% 50%; */
   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+   cursor: pointer;
+  }
 
 .checkbox-input:checked {
   background-color: var(--active-link-color);
@@ -825,5 +829,6 @@ svg {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 /* =============end-backdrop============= */
